@@ -1,6 +1,7 @@
 body {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
+
 }
 
 .mainheader {
@@ -120,4 +121,80 @@ body {
     width: 75%;
     border: 5px solid #3882F6;
     border-radius: 25px;
+}
+
+.mid2container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    background: #e5e7eb;
+    text-align: center;
+    
+}
+
+.mid2text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    flex: 1;
+    text-align: center;
+    padding-left: 700px;
+}
+
+.quote {
+    size: 605px;
+    width: 500px;
+    text-align: center;
+}
+
+.author {
+    size: 40px;
+    
+}
+
+.bot {
+    max-width: 100%;
+    padding-top: 40px;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    display: flex;
+    background: white;
+    text-align: center;
+    
+}
+
+.call2action {
+    background-color: #3882F6;
+    flex: 1;
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2aheading {
+
+    color: white;
+    size: 20px;
+}
+
+.c2asubtext{
+    color: rgb(215, 229, 245);
+    size: 15px;
+}
+
+.signupbutton2 {
+    flex: 1;
+}
+
+footer {
+    background: #1f2937;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    size: 10px;
+    padding: 30px;
 }
