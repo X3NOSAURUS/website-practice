@@ -80,3 +80,44 @@ body {
     width: auto;
     margin-right: 300px;
 }
+
+.midtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    size: 36px;
+    color: black;
+    display: flex;
+    padding: 8px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mttext {
+    flex: 1;
+    text-align: center;
+}
+
+
+.midcontainer {
+    width: auto;
+    max-width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    gap: 8px;
+    margin: 0 auto;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.img {
+    height: 250px;
+    width: 75%;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
